@@ -1,0 +1,175 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("3353853.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 400px) {
+    body{
+    background-image: url("img.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+.container{
+   
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+#container{
+    background-color: #FFF;
+    height: 400px;
+    width: 700px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	border-radius: 10px;
+}
+#box1{
+    
+}
+@media screen and (max-width: 400px) {
+    #box1{
+        margin-left: -50px;
+    }
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    margin-left: 18px;
+    border-radius: 50%;
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-color: transparent;
+    cursor: pointer;
+    color: blue;
+}
+@media screen and (max-width: 400px) {
+    .btn{
+        height: 30px;
+        width: 30px;
+        background-color: transparent;
+        margin-left: 10px;
+        border-radius: 50%;
+        box-shadow: rgb(255, 255, 255) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-color: transparent;
+        cursor: pointer;
+        color: blue;
+    }
+}
+.btn:hover{
+    color: rgb(255, 0, 238);
+}
+#followbtn{
+    margin-left: 100px;
+    width: 100px;
+}
+@media screen and (max-width: 400px) {
+    #followbtn{
+        margin-left: 20px;
+        width: 60px;
+    }
+}
+#inputbox1{
+    margin-top: 45px;
+    margin-left: 15px;
+    height: 30px;
+    width: 200px;
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-color: transparent;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    outline-color: #1100ff;
+    color: blue;
+    
+}
+::placeholder{
+    color: #1100ff;
+}
+@media screen  and (max-width: 400px) {
+    #inputbox1{
+        height: 30px;
+        width: 150px;
+        margin-left: 50px;
+    }
+}
+#oloffourbtn{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+@media screen and (max-width: 400px) {
+    #oloffourbtn{
+        margin-left: 40%;
+    }
+}
+#btnfirst{
+    
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#secondinput{
+    position: absolute;
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-color: transparent;
+    margin-left: 50%;
+    height: 150px;
+    width: 20px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    outline:none;
+    margin-top: -33%;
+    background-color: #e67700;
+}
+#secondinput2{
+    position: absolute;
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-color: transparent;
+    margin-left: 70%;
+    height: 150px;
+    width: 20px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    outline:none;
+    margin-top: -33%;
+    background-color: rgb(10, 0, 201);
+}
+#secondinput3{
+    position: absolute;
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    border-color: transparent;
+    margin-left: 90%;
+    height: 150px;
+    width: 20px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    outline:none;
+    margin-top: -33%;
+    background-color: #15ff00;
+}
+ @media screen and (max-width: 400px) {
+    #secondinput {
+        margin-left: 7%;
+        width: 12px;
+    }
+ }
+ @media screen and (max-width: 400px) {
+    #secondinput2 {
+        margin-left: 24%;
+        width: 12px;
+    }
+ }
+ @media screen and (max-width: 400px) {
+    #secondinput3 {
+        margin-left: 40%;
+        width: 12px;
+    }
+ }
+#ulofsocial{
+    margin-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: blue;
+}
